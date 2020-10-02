@@ -1,10 +1,6 @@
 pipeline {
     agent {
-<<<<<<< HEAD
       docker {
-=======
-        docker {
->>>>>>> 3b734eea29f6d6305b986b9013cb01582d2e0184
             image 'node:8.9.0'
             args '-p 3000:3000'
         }
