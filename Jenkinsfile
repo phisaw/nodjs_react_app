@@ -1,7 +1,7 @@
 pipeline {
     agent {
         docker {
-            image 'arm32v7/node'
+            image 'node:8.9.0'
             args '-p 3000:3000'
         }
     }
