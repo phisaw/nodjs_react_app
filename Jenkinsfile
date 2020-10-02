@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment { 
-        HOME = '.'
+        HOME = "${WORKSPACE}"
     }
     stages {
         stage('Build') {
